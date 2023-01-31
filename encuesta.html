@@ -40,12 +40,33 @@
             </div>
           </nav>
 
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
+          <div class="row justify-content-center">
+            <div class="col-12">
+                <h1 class="text-color-fuente" id="encuesta">Encuesta de satisfacción</h1>
+            </div>
+            <div class="col-10">
+                <form class="bg-secondary p-5">
+                    <label for="Selector" class="form-label">Indique su grado de satisfaccion</label>
+                    <select class="form-select" aria-label="Default select example" id="Selector">
+                        <option selected>Cual es su grado de satisfaccion con la pagina web</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-12">
+                <h2 id="resultado"></h2>
+            </div>
+        </div>
 
         <div class="row bg-header-color border border-5 border-color-span">
             <div class="col-12 text-center"><h2 class="text-warning">2023</h2></div>
