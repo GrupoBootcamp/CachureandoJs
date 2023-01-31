@@ -24,6 +24,9 @@ $black:    #000;
 $header-color: #84F5E4;
 $color-fuente: #A722D6;
 $color-span:   #FAB713;
+$pastel1:      #FFFDB9;
+$pastel2:      #FFFED4;
+$complement:   #B3B070;
 $primary:       $blue;
 $secondary:     $gray-600;
 $success:       $green;
@@ -38,6 +41,9 @@ $theme-colors: (
 "header-color": $header-color,
 "color-fuente": $color-fuente,
 "color-span":  $color-span,
+"pastel1":     $pastel1,
+"pastel2":     $pastel2,
+"complement":  $complement,
 "primary":    $primary,
 "secondary":  $secondary,
 "success":    $success,
